@@ -1,1 +1,1459 @@
-hey
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+</head>
+<style>
+	body{
+		font-family: 'Overpass';
+		width:100%;
+		font-size: 16px;
+		font-weight: 300px, 600px;
+		margin: 0px;
+		padding:0px;
+
+	}
+	.container{
+		width:100%;
+
+	}
+	.main{
+		background: url(C:/xampp/htdocs/internship/challengesecond/images/bg-pattern-intro.svg) right;
+         
+	    background-color:hsl(356, 100%, 66%);
+	    background-size: cover;
+	    height:500px;
+	    border-bottom-left-radius: 90px;
+
+		}
+	.main1{
+		display: flex;
+	}
+	.logo{
+		color: white;
+		margin:40px 0px 0px 150px;
+	}
+	
+	 .topnav {
+ 	margin:20px 0px 0px 25px; 
+  justify-content: space-between;
+  display: flex;
+  padding: 0 10px;
+}
+
+.topnav ul {
+ list-style: none;
+
+  padding: 0;
+ display: flex;
+  
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+.topnav  li a{
+	text-decoration: none;
+ 	color:white;
+ 	margin:20px;
+}
+.topnav li:hover{
+    text-decoration: underline;
+ }
+.topnav a{
+ text-decoration: none;
+ 	color:white;
+ 	margin:55px 0px 0px 550px;
+}
+.topnav ul .close {
+  display: none;
+  text-align: left;
+  padding: 10px;
+}
+.topnav ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.topnav .icon-bar {
+  width: 100px;
+  height: 10px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.topnav .icon-bar i {
+  background-color: black;
+  height: 1px;
+}
+
+
+.button button{
+	cursor:pointer;
+	background-color:white;
+	color:  hsl(355, 100%, 74%);
+	border : 1px solid red;
+	border-radius: 27px;
+	margin:0px 0px 0px 20px;
+	height: 30px;
+	width:85px;
+	cursor: pointer;
+}
+button:hover{
+	background-color:  hsl(355, 100%, 74%);
+	color:white;
+}
+.button1 button:hover{
+	background-color:  hsl(355, 100%, 74%);
+	color:white;
+}
+.button2 button:hover{
+	color:  hsl(355, 100%, 74%);
+	background-color:white;
+}
+.content p{
+	text-align:center;
+	font-size: 16px;
+}
+.content {
+	text-align: center;
+	margin-top: 80px;
+	color:white;
+	font-size:30px;
+}
+.Cbutton {
+	display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+.button1 button{
+	cursor:pointer;
+	height: 32px;
+	width:95px;
+	border : 1px solid white;
+	border-radius: 27px;
+	color:hsl(356, 100%, 66%);
+	background-color:white;
+}
+.button2 button{
+	cursor:pointer;
+	height: 32px;
+	width:95px;
+	border : 1px solid;
+	border-radius: 27px;
+    color:white;
+    background-color: unset;
+	margin-left: 10px;
+}
+.design{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+	margin-top: 100px;
+}
+.content2{
+	display:flex;
+}
+.icontent2{
+	display:flex;
+	flex-direction: column;
+	margin: 60px 0px 0px 100px;
+}
+.intro{
+	margin-left: 30px;
+}
+.iheading{
+	color:hsl(208, 49%, 24%);
+}
+.intro p{
+	text-align: left;
+
+}
+.robust{
+	margin-left: 30px;
+}
+.rheading{
+	color:hsl(208, 49%, 24%);
+}
+.robust p{
+	text-align: left;
+
+}
+.image {
+ margin-left: 80px;
+ margin-top: 0px;
+}
+.image img{
+height: 550px;
+width:600px;
+ box-shadow: 3px;
+ margin-left:50px;
+}
+.state{
+	background: url(C:/xampp/htdocs/internship/challengesecond/images/bg-pattern-circles.svg) left bottom;
+		background-color:  hsl(207, 13%, 34%);
+	background-repeat: no-repeat;
+	height: 320px;
+	background-size: 600px 500px;
+    border-bottom-left-radius: 90px;
+     border-top-right-radius: 90px;
+     display: flex;
+}
+.simage{
+   
+}
+.simage img{
+	height: 400px;
+margin-left: 120px;
+}
+.state1{
+   margin:90px 180px 50px 180px;
+ color:hsl(0, 0%, 100%);
+}
+.state1 p{
+  
+   color:hsl(0, 0%, 100%);
+}
+.content3{
+	display:flex;
+}
+.icontent3{
+	display:flex;
+	flex-direction: column;
+	margin: 190px 100px 0px 70px;
+}
+.image1 {
+ margin-left: 0px;
+ margin-top: 120px;
+
+}
+.image1 img{
+	overflow: hidden;
+height: 550px;
+width:650px;
+ box-shadow: 3px;
+ margin-left:0px;
+}
+.free{
+	margin-left: 30px;
+}
+.fheading{
+	color:hsl(208, 49%, 24%);
+}
+.free p{
+	text-align: left;
+}
+.power{
+	margin-left: 30px;
+}
+.poheading{
+	color:hsl(208, 49%, 24%);
+}
+.power p{
+	text-align: left;
+
+}
+.footer{
+	display: flex;
+	background-color: hsl(240, 10%, 16%);
+	height: 350px;
+	margin-top: 60px;
+	 border-top-right-radius: 90px;
+	 color:white;
+	
+}
+.product{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 105px;
+}
+.product li{
+	margin: 10px;
+	    list-style-type: none;
+}
+.pheading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.logo1 img{
+	margin: 50px 0px 0px 150px;
+}
+.product1{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product1 ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 105px;
+}
+.product1 li{
+	margin: 10px;
+	    list-style-type: none;
+}
+.p1heading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.product2{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product2 ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 105px;
+}
+.product2 li{
+	margin: 10px;
+	    list-style-type: none;
+}
+.p2heading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+
+
+	.dropdown{
+			opacity: 0;
+			position: absolute;
+			overflow: hidden;
+			padding:20px;
+			top:-60px;
+			transition: all 0.5s;
+			transform: translateY(100px);
+			will-change: transform;
+			display: none;
+}
+.trigger-enter .dropdown{
+	display: block;
+}
+.trigger-enter-active .dropdown{
+	opacity: 1;
+}
+
+	.dropdownBackground{
+			opacity: 0;
+		position: absolute;
+          background-color: white;
+			transition: all 0.5s, opacity 0.1s, translate 0.2s;
+			transform-origin:50% 0%;
+			will-change: transform;
+			display: flex;
+			flex-direction: column;
+			
+}
+
+.dropdownBackground.open{
+	opacity: 1;
+    
+}
+.bio{
+	display: flex;
+	flex-direction:column;
+
+}
+
+.bio li a{
+	min-width: 50px;
+	display: flex;
+flex-direction: column;
+ margin:20px 0px 0px 25px;
+	color: black;
+}
+.courses{
+	min-width: 100px;
+	flex-direction: column;
+}
+.courses li a{
+	color: black;
+
+}
+
+.courses li{
+	padding : 10px 0;
+	display: block;
+	color: black;
+	flex-direction: column;
+   margin:20px 0px 0px 25px;
+}
+.courses a{
+	padding : 10px 0;
+	display: block;
+	flex-direction: column;
+ color: black;
+     margin:20px 0px 0px 25px;
+    color: black;
+}
+.dropdown li{
+	text-decoration: none;
+	 margin:20px 0px 0px 25px;
+
+	flex-direction: column;
+}
+.dropdown li a{
+color: black;
+}
+.dropdown a{
+	text-decoration: none;
+	
+	flex-direction: column;
+	margin: 20px;
+}
+.display-mobile{
+	display:none;
+}
+
+
+
+@media (max-width:768px){
+	body{
+		font-family: 'Overpass';
+		width:100%;
+		font-size: 16px;
+		font-weight: 300px, 600px;
+		margin: 0px;
+		padding:0px;
+
+	}
+	.hidden-mobile{
+		display: none;
+	}
+	.display-mobile{
+		display: inline;
+		width:inherit;
+	}
+	.container{
+		width:100%;
+    }
+    .logo{
+		color: white;
+		margin:60px 0px 0px 50px;
+	}
+   .topnav {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin:70px 0px 0px 480px; 
+  -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+}
+.topnav ul {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: fixed;
+    right: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    overflow: auto;
+    -webkit-transition: left .3s;
+    -o-transition: left .3s;
+    transition: left .3s;
+  }
+.topnav ul li a {
+    padding: 10px;
+    font-size: 17px;
+    height: auto;
+    line-height: normal;
+    color: #03636d;
+  }
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  color:#03636d;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 17px;
+}
+
+.topnav ul .close {
+    display: block;
+  }
+
+  .topnav .icon-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .topnav ._Menus-show {
+    left: 0;
+  }
+
+	
+
+	.dropdown{
+			opacity: 0;
+			position: absolute;
+			overflow: hidden;
+			padding:20px;
+			top:-60px;
+			transition: all 0.5s;
+			transform: translateY(100px);
+			will-change: transform;
+			display: none;
+}
+.trigger-enter .dropdown{
+	display: block;
+}
+.trigger-enter-active .dropdown{
+	opacity: 1;
+}
+
+	.dropdownBackground{
+			opacity: 0;
+		position: absolute;
+          background-color: white;
+			transition: all 0.5s, opacity 0.1s, translate 0.2s;
+			transform-origin:50% 0%;
+			will-change: transform;
+			display: flex;
+			flex-direction: column;
+			
+}
+
+.dropdownBackground.open{
+	opacity: 1;
+    
+}
+.bio{
+	display: flex;
+	flex-direction:column;
+
+}
+
+.bio li a{
+	min-width: 50px;
+	display: flex;
+flex-direction: column;
+ margin:20px 0px 0px 25px;
+	color: black;
+}
+.courses{
+	min-width: 100px;
+	flex-direction: column;
+}
+.courses li a{
+	color: black;
+
+}
+
+.courses li{
+	padding : 10px 0;
+	display: block;
+	color: black;
+	flex-direction: column;
+   margin:20px 0px 0px 25px;
+}
+.courses a{
+	padding : 10px 0;
+	display: block;
+	flex-direction: column;
+ color: black;
+     margin:20px 0px 0px 25px;
+    color: black;
+}
+.dropdown li{
+	text-decoration: none;
+	 margin:20px 0px 0px 25px;
+
+	flex-direction: column;
+}
+.dropdown li a{
+color: black;
+}
+.dropdown a{
+	text-decoration: none;
+	
+	flex-direction: column;
+	margin: 20px;
+}
+.button button{
+	cursor:pointer;
+	background-color:white;
+	color:  hsl(355, 100%, 74%);
+	border : 1px solid red;
+	border-radius: 27px;
+	margin:0px 0px 0px 20px;
+	height: 30px;
+	width:85px;
+	cursor: pointer;
+}
+button:hover{
+	background-color:  hsl(355, 100%, 74%);
+	color:white;
+}
+.button1 button:hover{
+	background-color:  hsl(355, 100%, 74%);
+	color:white;
+}
+.button2 button:hover{
+	color:  hsl(355, 100%, 74%);
+	background-color:white;
+}
+.content p{
+	text-align:center;
+	font-size: 16px;
+}
+.content {
+	text-align: center;
+	margin: 50px 0px 53px 17px;
+	color:white;
+	font-size:20px;
+}
+.Cbutton {
+	display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+.button1 button{
+	cursor:pointer;
+	height: 32px;
+	width:105px;
+	border : 1px solid white;
+	border-radius: 27px;
+	color:hsl(356, 100%, 66%);
+	background-color:white;
+}
+.button2 button{
+	cursor:pointer;
+	height: 32px;
+	width:105px;
+	border : 1px solid;
+	border-radius: 27px;
+    color:white;
+    background-color: unset;
+	margin-left: 10px;
+}
+.design{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+	margin-top: 100px;
+}
+.content2{
+	display:flex;
+	flex-direction: column;
+}
+.icontent2{
+	display:flex;
+	flex-direction: column;
+	margin: 0px 0px 0px 0px;
+}
+.intro{
+	
+}
+.iheading{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+}
+.intro p{
+	text-align: center;
+   margin-left:30px;
+   margin-right:30px;
+}
+.robust{
+	margin-left: 30px;
+}
+.rheading{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+}
+.robust p{
+	text-align: center;
+	  margin-left:30px;
+   margin-right:30px;
+
+}
+.image img{
+height: 200px;
+width:200px;
+margin-left: 0px;
+ box-shadow: 3px;
+}
+.state{
+	background: url(C:/xampp/htdocs/internship/challengesecond/images/bg-pattern-circles.svg) top bottom;
+		background-color:  hsl(207, 13%, 34%);
+	background-repeat: no-repeat;
+	height: 800px;
+	background-size: 200px 300px;
+    border-bottom-left-radius: 90px;
+     border-top-right-radius: 90px;
+     display: flex;
+     flex-direction: column;
+     float: left;
+     width:inherit;
+}
+.sheading{
+	text-align: center;
+	margin-left: 0px;
+    width:inherit;
+}
+.simage img{
+	height: 400px;
+    margin-left:0px;
+    float: left;
+}
+.state1{
+	margin-left: inherit;
+	margin-top:10px;	
+text-align: center;
+ color:hsl(0, 0%, 100%);
+}
+.state1 p{
+	margin-left: inherit;
+  text-align: center;
+   color:hsl(0, 0%, 100%);
+}
+.content3{
+	display:flex;
+	flex-direction: column;
+	float: left;
+	width:inherit;
+}
+.icontent3{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: inherit;
+}
+.image1 {
+ margin-left: 0px;
+text-align: center;
+
+}
+.image1 img{
+	overflow: hidden;
+height: 250px;
+width:250px;
+ box-shadow: 3px;
+ margin-left:0px;
+}
+.free p{
+	text-align: center;
+	margin :0px 20px 0px 0px;
+}
+.fheading{
+	color:hsl(208, 49%, 24%);
+}
+.power p{
+	text-align: center;
+	margin :0px 20px 0px 0px;
+}
+.poheading{
+	color:hsl(208, 49%, 24%);
+}
+
+.footer{
+	display: flex;
+	background-color: hsl(240, 10%, 16%);
+	height: 950px;
+	width: inherit;
+	margin-top: 60px;
+	 border-top-right-radius: 90px;
+	 color:white;
+	 float: left; 
+	 text-align:center; 
+	 flex-direction: column;
+}
+.product{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product ul {
+	display: flex;
+	text-decoration: none;
+	flex-direction: column;
+	color: white;
+	text-decoration: none;
+	margin: 20px 0px 0px 125px;
+}
+.product li{
+	    list-style-type: none;
+	margin: 10px;
+	text-decoration: none;
+}
+.pheading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.logo1 img{
+	margin: 50px 0px 0px 150px;
+}
+.product1{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product1 ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 125px;
+}
+.product1 li{
+	margin: 10px;
+}
+.p1heading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.product2{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product2 ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 125px;
+}
+.product2 li{
+	margin: 10px;
+	    list-style-type: none;
+}
+.p2heading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.image{
+	text-align: center;
+}
+}
+
+
+@media (max-width:375px){
+	body{
+		font-family: 'Overpass';
+		width:100%;
+		font-size: 16px;
+		font-weight: 300px, 600px;
+		margin: 0px;
+		padding:0px;
+
+	}
+	.hidden-mobile{
+		display: none;
+	}
+	.display-mobile{
+		display: inline;
+		width:inherit;
+	}
+	.container{
+		width:100%;
+    }
+    .logo{
+		color: white;
+		margin:60px 0px 0px 50px;
+	}
+   .topnav {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin:70px 0px 0px 120px; 
+  -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+}
+.topnav ul {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: fixed;
+    right: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    overflow: auto;
+    -webkit-transition: left .3s;
+    -o-transition: left .3s;
+    transition: left .3s;
+  }
+.topnav ul li a {
+    padding: 10px;
+    font-size: 17px;
+    height: auto;
+    line-height: normal;
+    color: #03636d;
+  }
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  color:#03636d;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 17px;
+}
+
+.topnav ul .close {
+    display: block;
+  }
+
+  .topnav .icon-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .topnav ._Menus-show {
+    left: 0;
+  }
+
+	
+
+	.dropdown{
+			opacity: 0;
+			position: absolute;
+			overflow: hidden;
+			padding:20px;
+			top:-60px;
+			transition: all 0.5s;
+			transform: translateY(100px);
+			will-change: transform;
+			display: none;
+}
+.trigger-enter .dropdown{
+	display: block;
+}
+.trigger-enter-active .dropdown{
+	opacity: 1;
+}
+
+	.dropdownBackground{
+			opacity: 0;
+		position: absolute;
+          background-color: white;
+			transition: all 0.5s, opacity 0.1s, translate 0.2s;
+			transform-origin:50% 0%;
+			will-change: transform;
+			display: flex;
+			flex-direction: column;
+			
+}
+
+.dropdownBackground.open{
+	opacity: 1;
+    
+}
+.bio{
+	display: flex;
+	flex-direction:column;
+
+}
+
+.bio li a{
+	min-width: 50px;
+	display: flex;
+flex-direction: column;
+ margin:20px 0px 0px 25px;
+	color: black;
+}
+.courses{
+	min-width: 100px;
+	flex-direction: column;
+}
+.courses li a{
+	color: black;
+
+}
+
+.courses li{
+	padding : 10px 0;
+	display: block;
+	color: black;
+	flex-direction: column;
+   margin:20px 0px 0px 25px;
+}
+.courses a{
+	padding : 10px 0;
+	display: block;
+	flex-direction: column;
+ color: black;
+     margin:20px 0px 0px 25px;
+    color: black;
+}
+.dropdown li{
+	text-decoration: none;
+	 margin:20px 0px 0px 25px;
+
+	flex-direction: column;
+}
+.dropdown li a{
+color: black;
+}
+.dropdown a{
+	text-decoration: none;
+	
+	flex-direction: column;
+	margin: 20px;
+}
+.button button{
+	cursor:pointer;
+	background-color:white;
+	color:  hsl(355, 100%, 74%);
+	border : 1px solid red;
+	border-radius: 27px;
+	margin:0px 0px 0px 20px;
+	height: 30px;
+	width:85px;
+	cursor: pointer;
+}
+button:hover{
+	background-color:  hsl(355, 100%, 74%);
+	color:white;
+}
+.button1 button:hover{
+	background-color:  hsl(355, 100%, 74%);
+	color:white;
+}
+.button2 button:hover{
+	color:  hsl(355, 100%, 74%);
+	background-color:white;
+}
+.content p{
+	text-align:center;
+	font-size: 16px;
+}
+.content {
+	text-align: center;
+	margin: 50px 0px 53px 17px;
+	color:white;
+	font-size:20px;
+}
+.Cbutton {
+	display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+.button1 button{
+	cursor:pointer;
+	height: 32px;
+	width:105px;
+	border : 1px solid white;
+	border-radius: 27px;
+	color:hsl(356, 100%, 66%);
+	background-color:white;
+}
+.button2 button{
+	cursor:pointer;
+	height: 32px;
+	width:105px;
+	border : 1px solid;
+	border-radius: 27px;
+    color:white;
+    background-color: unset;
+	margin-left: 10px;
+}
+.design{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+	margin-top: 100px;
+}
+.content2{
+	display:flex;
+	flex-direction: column;
+}
+.icontent2{
+	display:flex;
+	flex-direction: column;
+	margin: 0px 0px 0px 0px;
+}
+.intro{
+	
+}
+.iheading{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+}
+.intro p{
+	text-align: center;
+   margin-left:30px;
+   margin-right:30px;
+}
+.robust{
+	margin-left: 30px;
+}
+.rheading{
+	text-align: center;
+	color:hsl(208, 49%, 24%);
+}
+.robust p{
+	text-align: center;
+	  margin-left:30px;
+   margin-right:30px;
+
+}
+.image img{
+height: 200px;
+width:200px;
+margin-left: 0px;
+ box-shadow: 3px;
+}
+.state{
+	background: url(C:/xampp/htdocs/internship/challengesecond/images/bg-pattern-circles.svg) top bottom;
+		background-color:  hsl(207, 13%, 34%);
+	background-repeat: no-repeat;
+	height: 800px;
+	background-size: 200px 300px;
+    border-bottom-left-radius: 90px;
+     border-top-right-radius: 90px;
+     display: flex;
+     flex-direction: column;
+     float: left
+}
+.sheading{
+	text-align: center;
+	margin-left: 0px;
+    width:inherit;
+}
+.simage img{
+	height: 400px;
+    margin-left:0px;
+    float: left;
+}
+.state1{
+	margin-left: inherit;
+	margin-top:10px;	
+text-align: center;
+ color:hsl(0, 0%, 100%);
+}
+.state1 p{
+	margin-left: inherit;
+  text-align: center;
+   color:hsl(0, 0%, 100%);
+}
+.content3{
+	display:flex;
+	flex-direction: column;
+	float: left;
+	width:inherit;
+}
+.icontent3{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: inherit;
+}
+.image1 {
+ margin-left: 0px;
+text-align: center;
+
+}
+.image1 img{
+	overflow: hidden;
+height: 250px;
+width:250px;
+ box-shadow: 3px;
+ margin-left:0px;
+}
+.free p{
+	text-align: center;
+	margin :0px 20px 0px 0px;
+}
+.fheading{
+	color:hsl(208, 49%, 24%);
+}
+.power p{
+	text-align: center;
+	margin :0px 20px 0px 0px;
+}
+.poheading{
+	color:hsl(208, 49%, 24%);
+}
+
+.footer{
+	display: flex;
+	background-color: hsl(240, 10%, 16%);
+	height: 950px;
+	width: inherit;
+	margin-top: 60px;
+	 border-top-right-radius: 90px;
+	 color:white;
+	 float: left;
+	 flex-direction: column;
+}
+.product{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product ul {
+	display: flex;
+	text-decoration: none;
+	flex-direction: column;
+	color: white;
+	text-decoration: none;
+	margin: 20px 0px 0px 125px;
+}
+.product li{
+	margin: 10px;
+	text-decoration: none;
+}
+.pheading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.logo1 img{
+	margin: 50px 0px 0px 150px;
+}
+.product1{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product1 ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 125px;
+}
+.product1 li{
+	margin: 10px;
+}
+.p1heading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.product2{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.product2 ul {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 20px 0px 0px 125px;
+}
+.product2 li{
+	margin: 10px;
+}
+.p2heading{
+	color: white;
+	margin: 58px 0px 0px 150px;
+}
+.image{
+	text-align: center;
+}
+
+}
+</style>
+<body>
+	<div class = "container">
+		<div class = "main">
+			<div class = "main1">
+		<div class = "logo">
+		<img src = "C:\xampp\htdocs\internship\challengesecond\images\logo.svg">
+		</div>
+		
+
+<nav class="topnav">
+
+<div class="icon-bar" onclick="Show()">
+    <img src="C:\xampp\htdocs\internship\challengesecond\images\icon-hamburger.svg"></div>
+
+<ul id="nav-lists">
+	<div class = "dropdownBackground">
+	</div>
+	<li class="close"><span onclick="Hide()">×</span></li>
+			 <li>
+    <li>
+			<a href="#">Product<img src="C:\xampp\htdocs\internship\challengesecond\images\icon-arrow-light.svg"></a>
+			<div class = " dropdown dropdown1">
+				<div class = "bio">
+				<ul><li><a href="#"> Overview </a></li>
+		<li><a href="#">Pricing</a></li> <li><a href="#"> Marketplace</a></li> <li><a href="#"> Features</a></li> <li><a href="#">Integrations</a></li> </ul>				</div>
+			</div>
+		</li>
+		<li>
+			<a href="#">Company<img src="C:\xampp\htdocs\internship\challengesecond\images\icon-arrow-light.svg"></a>
+			<ul class = " dropdown courses">
+				<li><a href="#">  About</a> </li>
+		<li><a href="#">Team</a></li> <li><a href="#">Blog</a></li> <li> <a href="#">Careers</a> </li> </ul>
+				
+			</li>
+				<li>
+					<a href ="#">Connect<img src="C:\xampp\htdocs\internship\challengesecond\images\icon-arrow-light.svg"></a>
+					<ul class = "dropdown dropdown3">
+						<li><a href="#">  Contact</a> </li>
+		<li><a href="#">Newsletter</a></li>
+		 <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </li>
+
+
+<div class="login">
+<a href="#">Login</a></div>
+<div class = "button">
+<button>Sign Up</button></ul>
+</div></nav>
+<div class = "content">
+	<h1>A modern publishing platform</h1>
+     <p> Grow your audience and build your online brand</p>
+	</div>
+	<div class = "Cbutton">
+	<div class = "button1">
+	<button>Start for Free</button></div>
+	<div class = "button2">
+	<button>Learn More</button></div>
+</div>
+</div>
+
+<div class = "design">
+	<h1>Designed for the future</h1>
+    </div>
+    <img src="C:\xampp\htdocs\internship\challengesecond\images\illustration-editor-mobile.svg" class = "display-mobile">
+    <div class = "content2">
+    	<div class ="icontent2">
+    <div class = "intro">
+    	<div class = "iheading">
+    		<h1>Introducing an extensible editor</h1> 
+    </div>
+ <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog
+</p>
+</div>
+
+<div class = "robust">
+	<div class = "rheading">
+	<h1>Robust content management</h1>
+</div>
+<p> Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+</div>
+</div>
+<div class = "image">
+	<img src="C:\xampp\htdocs\internship\challengesecond\images\illustration-editor-desktop.svg" class = "hidden-mobile">
+	
+</div>
+</div>
+<div class = "state">
+	<div class = "simage">
+	<img src= "C:\xampp\htdocs\internship\challengesecond\images\illustration-phones.svg"></div>
+	<div class = "state1">
+	<div class = "sheading">
+	<h1>State of the Art Infrastructure</h1>
+</div>
+<p> With reliability and speed in mind, worldwide data centers provide the<br> backbone for ultra-fast connectivity. This ensures your site will load<br> instantly, no matter where your readers are, keeping your site <br>competitive.</p>
+</div></div>
+   <div class = "content3">
+   	<div class = "image1">
+	<img src="C:\xampp\htdocs\internship\challengesecond\images\illustration-laptop-desktop.svg" class = "hidden-mobile">
+	 <img src="C:\xampp\htdocs\internship\challengesecond\images\illustration-laptop-mobile.svg" class = "display-mobile">
+</div>
+    	<div class ="icontent3">
+    <div class = "free">
+    	<div class = "fheading">
+    		<h1>Free, open, simple</h1> 
+    </div>
+ <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+</p>
+</div>
+<div class = "power">
+	<div class = "poheading">
+	<h1>Powerful tooling</h1>
+</div>
+<p> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+</div>
+</div>
+</div>
+<div class = "footer">
+	<div class ="logo1">
+	<img src = "C:\xampp\htdocs\internship\challengesecond\images\logo.svg">
+</div>
+<div class="product">
+	<div class="pheading">
+		Product
+	</div>
+	<ul><li> Overview </li>
+		<li>Pricing</li> <li> Marketplace</li> <li> Features</li> <li>Integrations</li> </ul>
+</div>
+<div class="product1">
+	<div class="p1heading">
+		Company
+	</div>
+	<ul><li>  About </li>
+		<li>Team</li> <li>Blog</li> <li> Careers </li> </ul>
+</div>
+<div class="product2">
+	<div class="p2heading">
+		Connect
+	</div>
+	<ul><li>  Contact </li>
+		<li>Newsletter</li> <li>LinkedIn</li> </ul>
+</div>
+</div>
+</div>
+<script>
+      	const triggers = document.querySelectorAll('#nav-lists >li');
+      	const  background= document.querySelector('.dropdownBackground');
+      	const nav = document.querySelector('.topnav');
+
+      	function handleEnter(){
+      		this.classList.add('trigger-enter');
+      		setTimeout(()=> this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active'),150);
+      		background.classList.add('open');
+
+      		const  dropdown= this.querySelector('.dropdown');
+      		const  dropdownCoords= dropdown.getBoundingClientRect();
+            const  navCoords= nav.getBoundingClientRect();
+
+              const coords = {
+             	height: dropdownCoords.height,
+                width: dropdownCoords.width,
+                top:dropdownCoords.top-navCoords.top,
+                left:dropdownCoords.left-navCoords.left,
+             };
+
+             background.style.setProperty('width' ,`${coords.width}px`);
+             background.style.setProperty('height' ,`${coords.height}px`);
+             background.style.setProperty('transform' ,`translate(${coords.left}px, ${coords.top}px)`);
+      	}
+      	function handleLeave(){
+      		this.classList.remove('trigger-enter' , 'trigger-enter-active');
+      		background.classList.remove('open');
+      	}
+      	triggers.forEach(trigger => trigger.addEventListener('mouseenter',handleEnter));
+      		triggers.forEach(trigger => trigger.addEventListener('mouseleave',handleLeave));
+
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");
+}
+
+function Hide(){
+navList.classList.remove("_Menus-show");
+
+}
+</script>
+</body>
+</html>
